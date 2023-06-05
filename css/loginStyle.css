@@ -3,7 +3,6 @@
 	padding: 0;
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	min-height: 100vh;
 	font-family: 'Jost', sans-serif;
 	background: linear-gradient(to bottom, #64aef3, #94b9d3, #c5c4b3);
