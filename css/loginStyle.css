@@ -67,6 +67,7 @@ button{
 button:hover{
 	background: #f6d094;
 }
+
 .login{
 	height: 460px;
 	background: #eee;
@@ -76,8 +77,10 @@ button:hover{
 }
 .login label{
 	color: #64aef3;
+	padding-top: 25px;
 	transform: scale(1);
 }
+
 .signup label{
 	color: #FFFFFF;
 	transform: scale(.6);
