@@ -71,8 +71,8 @@ button:hover{
 .login{
 	height: 460px;
 	background: #eee;
-	border-radius: 60% / 10%;
-	transform: translateY(-500px);
+	border-radius: 80% / 10%;
+	transform: translateY(-555px);
 	transition: .8s ease-in-out;
 }
 .login label{
@@ -84,13 +84,16 @@ button:hover{
 .signup label{
 	color: #FFFFFF;
 	transform: scale(.6);
+	transform-origin: 50% -225% 0;
 }
 #chk:checked ~ .login{
 	transform: translateY(-180px);
 }
 #chk:checked ~ .login label{
-	transform: scale(.6);	
+	transform: scale(.6);
+	transform-origin: 50% 5% 0;
 }
 #chk:checked ~ .signup label{
 	transform: scale(1);
+	
 }
