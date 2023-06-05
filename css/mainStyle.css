@@ -225,11 +225,11 @@ h1 {
 }
 
 .logo {
-  width: 75px; /* set the width of the logo */
+  width: 400px; /* set the width of the logo */
   margin-left: 10px; /* add some spacing between the text and logo */
 }
 .logo img {
-  width: 75px; /* adjust the width to make the logo smaller */
+  width: 400px; /* adjust the width to make the logo smaller */
 }
 
 /* More Items CSS */
