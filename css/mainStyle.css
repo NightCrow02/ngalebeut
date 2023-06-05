@@ -152,50 +152,6 @@ h1 {
   font-weight: bold;
 }
 
-.shop {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-
-.shop h2 {
-  margin-top: 0;
-}
-
-.shop ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.shop li {
-  width: calc(50% - 10px);
-  margin-right: 20px;
-  margin-bottom: 20px;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  transition: transform 0.3s;
-}
-
-.shop li:hover {
-  transform: translateY(-5px);
-}
-
-.shop img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.shop h3 {
-  margin-top: 0;
-  margin-bottom: 10px;
-}
 
 .product-price {
   display: inline-block;
@@ -323,6 +279,7 @@ h1 {
 
 .wrapperitems .carouselitems {
   font-size: 0px;
+  padding-bottom: 25px;
   cursor: pointer;
   overflow: hidden;
   white-space: nowrap;
