@@ -61,11 +61,13 @@ main ul {
 main li {
   width: calc(33.33% - 20px);
   margin-bottom: 30px;
+
 }
 
 main img {
   width: 100%;
-  height: auto;
+  width: 366.63px;
+  height: 244.41px;
   margin-bottom: 10px;
 }
 
