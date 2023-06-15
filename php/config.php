@@ -3,7 +3,7 @@
 $hostname = 'localhost';
 $username = 'root';
 $password = '';
-$dbname = 'ngalebeutDB';
+$dbname = 'ngalebeut';
 
 $conn = mysqli_connect($hostname, $username, $password, $dbname) or die('connection failed');
 

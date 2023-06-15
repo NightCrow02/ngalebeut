@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapperitems {
+  display: flex;
+  max-width: 1200px;
+  position: relative;
+}
+
+.wrapperitems i {
+  top: 50%;
+  height: 44px;
+  width: 44px;
+  color: #343F4F;
+  cursor: pointer;
+  font-size: 1.15rem;
+  position: absolute;
+  text-align: center;
+  line-height: 44px;
+  background: #fff;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+
+.wrapperitems i:active{
+  transform: translateY(-50%) scale(0.9);
+}
+.wrapperitems i:hover{
+  background: #f2f2f2;
+}
+.wrapperitems i:first-child{
+  left: -22px;
+  display: none;
+}
+.wrapperitems i:last-child{
+  right: -22px;
+}
+
+.wrapperitems .carouselitems {
+  font-size: 0px;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+
+.carouselitems {
+  cursor: grab;
+  scroll-behavior: auto;
+}
+
+.carouselitems img {
+  pointer-events: none;
+}
+
+.carouselitems img {
+  height: 340px;
+  object-fit: cover;
+  user-select: none;
+  margin-left: 14px;
+  width: calc(100% / 3);
+}
+
+.carouselitems img:first-child {
+  margin-left: 0px;
+}
+
+@media screen and (max-width: 700px) {
+  .carouselitems img {
+    width: calc(100% / 2);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .carouselitems img{
+    width: 100%;
+  }
+}
