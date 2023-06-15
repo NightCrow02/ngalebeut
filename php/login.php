@@ -3,8 +3,8 @@
     include 'config.php';
 	session_start();
 
-	if(isset($_POST['submit'])){
-
+	if(!empty($_POST['submit'])){
+		header('location:index.php');
 		$email = mysqli_real_escape_string($conn, $_POST['email']);
 		$passphase = mysqli_real_escape_string($conn, sha1($_POST['passphase']));
 	
