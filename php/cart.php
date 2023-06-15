@@ -10,14 +10,14 @@
   <header>
     <div class="header-container">
       <div class="logo">
-        <a href="index.html"><img src="banner_ngalebeut.png" alt="NGALEBEUT Logo"></a>
+        <a href="index.php"><img src="banner_ngalebeut.png" alt="NGALEBEUT Logo"></a>
       </div>
     </div>
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="shop.html">Shop</a></li>
-        <li><a href="cart.html">Cart</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="shop.php">Shop</a></li>
+        <li><a href="cart.php">Cart</a></li>
       </ul>
     </nav>
   </header>
@@ -58,7 +58,7 @@
         <button class="checkout-button" onclick="redirectToPage()">Checkout</button>
         <script>
           function redirectToPage() {
-            window.location.href = "Laman_Data_Pembeli.html";
+            window.location.href = "Laman_Data_Pembeli.php";
           }
         </script>
       </div>

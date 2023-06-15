@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<php lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Ngalebeut -  Hiji Web Sakluarga</title>
@@ -15,16 +15,16 @@
   <header>
     <div class="header-container">
       <div class="logo">
-        <a href="index.html"><img src="banner_ngalebeut.png" alt="NGALEBEUT Logo"></a>
+        <a href="index.php"><img src="banner_ngalebeut.png" alt="NGALEBEUT Logo"></a>
       </div>
     </div>
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="shop.html">Shop</a></li>
-        <li><a href="cart.html">Cart</a></li>
-        <li><a href="login.html">Login</a></li>
-        <li><a href="register.html">Sign Up</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="shop.php">Shop</a></li>
+        <li><a href="cart.php">Cart</a></li>
+        <li><a href="login.php">Login</a></li>
+        <li><a href="register.php">Sign Up</a></li>
       </ul>
     </nav>
   </header>
@@ -129,4 +129,4 @@
     <p>@ngalebeut</p>
   </footer>
 </body>
-</html>
+    </html>

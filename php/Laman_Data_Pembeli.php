@@ -11,16 +11,16 @@
     <header>
       <div class="header-container">
         <div class="logo">
-          <a href="index.html"><img src="banner_ngalebeut.png" alt="NGALEBEUT Logo"></a>
+          <a href="index.php"><img src="banner_ngalebeut.png" alt="NGALEBEUT Logo"></a>
         </div>
       </div>
       <nav>
         <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="shop.html">Shop</a></li>
-        <li><a href="cart.html">Cart</a></li>
-        <li><a href="login.html">Login</a></li>
-        <li><a href="register.html">Sign Up</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="shop.php">Shop</a></li>
+        <li><a href="cart.php">Cart</a></li>
+        <li><a href="login.php">Login</a></li>
+        <li><a href="register.php">Sign Up</a></li>
         </ul>
       </nav>
     </header>
@@ -30,7 +30,7 @@
         <i class="fas fa-at"></i>
         <i class="fas fa-mail-bulk"></i>
       </div>
-      <form action="./Metode_Pembayaran.html">
+      <form action="./Metode_Pembayaran.php">
         <h1>Please Input Your Personal Information </h1>
         <div class="info">
           <input class="fname" type="text" name="name" placeholder="Full Name">
