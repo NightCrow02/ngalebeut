@@ -1,4 +1,4 @@
-CREATE IF EXIST DATABASE ngalebeut;
+CREATE DATABASE IF NOT EXISTS ngalebeut;
 
 USE ngalebeut;
 
