@@ -7,6 +7,16 @@
         $email = mysqli_real_escape_string($conn, $_POST['email']);
         $passphase = mysqli_real_escape_string($conn, $_POST['passphase']);
 
+		$select_users = mysqli_query($conn, "SELECT * FROM `customer` WHERE email = '$email' AND passphase = '$passphase'") or die('query failed');
+
+		if(mysqli_num_rows($select_users) > 0){
+			$message[] = 'user already exist!';
+		}else{
+			mysqli_query($conn, "INSERT INTO `customer`(userName, email, passphase) VALUES('$userName', '$email', '$passphase')") or die('query failed');
+			$message[] = 'registered successfully!';
+			header('location:login.php');
+		}
+
     }
 
 ?>
@@ -16,7 +26,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Ngalebeut -  Hiji Web Sakluarga</title>
-  <link rel="stylesheet" href="./css/RegisterStyle.css">
+  <link rel="stylesheet" href="./css/registerStyle.css">
   <link rel="stylesheet" href="./css/mainStyle.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
@@ -49,7 +59,7 @@
 					<input type="text" name="userName" placeholder="User name" required="">
 					<input type="email" name="email" placeholder="Email" required="">
 					<input type="password" name="passphase" placeholder="Password" required="">
-					<button name="submit">Sign up</button>
+					<input class="button" type="submit" name="submit" value="Sign up">
 				</form>
 			</div>
 
